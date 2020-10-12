@@ -1,0 +1,12 @@
+{
+    "presets": ["@babel/preset-typescript"],
+    "plugins": [
+        [
+            "module:bable-import-style-suffix",
+            {
+                "matchSuffixArr": [".sass", ".scss"],
+                "relaceStrSuffix": ".css"
+            }
+        ]
+    ]
+}

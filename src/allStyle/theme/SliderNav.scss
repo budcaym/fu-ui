@@ -1,0 +1,44 @@
+@import '../../../common/mixin';
+$navHeight: 40px;
+.sliderNavCom {
+    @include flex_start;
+    height: $navHeight;
+    border-radius: 4px;
+    background-color: #f0f2f5;
+    margin: 0 auto;
+    li {
+        width: 160px;
+        line-height: $navHeight - 2 * 4px;
+        margin: 4px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        &:not(:last-of-type) {
+            &::after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                right: -5px;
+                height: 100%;
+                opacity: 0.6;
+                border: 1px solid #DFE3E9;
+            }
+        }
+        img {
+            margin-right: 8px;
+            margin-bottom: 2px;
+            vertical-align: middle;
+        }
+        &.active {
+            background-color: #fff;
+            border-radius: 2px;
+            color: $mainColor;
+            cursor: not-allowed;
+            // transition: background-color cubic-bezier(1, 0.11, 1, 1) .2s;
+        }
+        &.hover {
+            color: $mainColor;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "fu-ui",
+  "version": "0.0.7",
+  "description": "faceunity UI",
+  "main": "./es/index.js",
+  "scripts": {
+    "start": "test",
+    "build": "sh ./script/build-ts.sh",
+    "style-suffix": "babel ./es -d ./es --verbose --keep-file-extension"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@192.168.0.118:zyh/fu-ui.git"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "author": "zyh and more",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-typescript": "^7.10.4",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@commitlint/core": "^9.1.1",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "bable-import-style-suffix": "^1.0.0",
+    "commitlint-config-gitmoji": "^1.0.1",
+    "core-js": "^3.6.5",
+    "cz-conventional-changelog": "^3.2.0",
+    "cz-emoji": "^1.2.1",
+    "file-loader": "^6.0.0",
+    "husky": "^4.2.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass-loader": "^9.0.1",
+    "style-loader": "^1.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
+    }
+  },
+  "husky": {
+    "hooks": {}
+  }
+}
