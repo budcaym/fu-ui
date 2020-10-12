@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@192.168.0.118:zyh/fu-ui.git"
+    "url": "git+https://github.com/HuiGeGeGitHub/fu-ui"
   },
   "peerDependencies": {
     "react": ">=16.9.0",

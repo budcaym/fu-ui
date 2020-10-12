@@ -7,7 +7,7 @@
     npm i
 ```
 
-## ✒ 实例
+## ✒ 示例
 ```javascript
     console.log('haha')
 ```
