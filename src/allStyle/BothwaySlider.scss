@@ -1,0 +1,27 @@
+@import "./base/fix.scss";
+$containerClass: #{$fu-prefix}SpecialSlider;
+.#{$containerClass} {
+    display: flex;
+    align-items: center;
+    .ant-slider {
+        display: inline-block;
+        margin: 14px 16px 10px 8px;
+        width: 100%;
+        .ant-slider-track {
+            display: none;
+        }
+        .ant-slider-handle {
+            z-index: 1;
+        }
+        .custom-track {
+            display: inline-block;
+            position: absolute;
+            height: 4px;
+            border-radius: 4px;
+            background: rgba(24, 144, 255, 1);
+        }
+    }
+    .ant-input-number-handler-wrap {
+        opacity: 1;
+    }
+}
