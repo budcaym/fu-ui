@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import BothwaySlider from "../../../../src/BothwaySlider";
 const StoriesType = "数据展示";
 
-const subTitle = "/ ImageList 滑动输入条加强版";
+const subTitle = "/ BothwaySlider 双向滑动条";
 const BothwaySliderDemo = (props) => {
     const { value, max, min } = props;
     const [demoValue, setValue] = useState(value);

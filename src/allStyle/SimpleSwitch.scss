@@ -1,0 +1,32 @@
+@import "./base/fix";
+$containerClass: #{$fu-prefix}SimpleSwitch;
+.#{$containerClass} {
+    display: flex;
+    position: relative;
+    background: rgba(230, 233, 235, 1);
+    border-radius: 16px;
+    width: 112px;
+    height: 32px;
+    span {
+        display: inline-block;
+        position: absolute;
+        height: 32px;
+        width: 56px;
+    }
+    .sliding-shoe {
+        background: #fff;
+        width: 56px;
+        border-radius: 16px;
+        transition: all 0.3s;
+    }
+    .left-area {
+        text-align: center;
+        top: 5px;
+        left: 0;
+    }
+    .right-area {
+        text-align: center;
+        top: 5px;
+        right: 0;
+    }
+}
