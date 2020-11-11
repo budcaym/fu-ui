@@ -1,7 +1,7 @@
 ---
 inject: true
 to: src/allStyle/index.scss
-after: \z
+after: \n$
 skip_if: <%= name %>.scss
 ---
 @import './<%= name %>.scss';
