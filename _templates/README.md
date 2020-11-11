@@ -1,0 +1,1 @@
+hygen fu create --name Test 自动生成form模板
