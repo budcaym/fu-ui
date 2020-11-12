@@ -1,1 +1,6 @@
-hygen fu create --name Test 自动生成form模板
+
+### 安装
+npm i -g hygen
+
+### 运行模板，
+hygen create --name Test
