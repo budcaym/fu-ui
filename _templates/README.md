@@ -3,4 +3,4 @@
 npm i -g hygen
 
 ### 运行模板，
-hygen create --name Test
+hygen fu create --name Test

@@ -1,0 +1,9 @@
+@import "./base/fix.scss";
+$containerClass: #{$fu-prefix}Listening;
+.#{$containerClass} {
+    text-align: center;
+    background-color: #d0e8ff;
+    color: #1890ff;
+    border-radius: 6px;
+    width: 70px;
+}
